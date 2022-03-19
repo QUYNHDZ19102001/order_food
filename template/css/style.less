@@ -1,3 +1,190 @@
-.c1 {
-    color: red;
-}
+header {
+    
+    li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    hr {
+        margin-top: 100px;
+    }
+    .header-top {
+            .logo {
+                img {
+                height:auto;
+                width: 400px;
+                }
+            }
+            .login {
+                .form-login {
+                position: relative;
+                text-align: right;
+                padding-top: 10px;
+
+                div {
+                    display: inline-block;
+                    position: relative;
+                    div {
+                        position: absolute;
+                        padding: 5px 12px 8px 12px;
+                        background-color: #80808026;
+                        top: 0;
+                    }
+                    input {
+                        padding: 5px 0 5px 41px;
+                    }
+                }
+                button {
+                    margin-top: -4px;
+                    background-color: #80808026;
+                }
+            }
+            .forget-password {
+                padding-top: 5px;
+                text-align: right;
+            }
+            }
+        }
+
+    .header-middle {
+            padding-top: 50px;
+            .nav {
+              >ul {
+                    display: flex;
+                    >li {
+                        padding: 10px 20px;
+                        position: relative;
+                        i {
+                            padding-left: 2px;
+                        }
+                        &:hover span{
+                            opacity:0.6;
+                        }
+                        &:hover ul {
+                            display: block;
+                        }
+                        ul {
+                            min-width: 180px;
+                            position: absolute;
+                            top: 100%;
+                            left: -1px;
+                            padding: 0;
+                            border: solid 1px #80808026;
+                            box-shadow: 0 3px 3px #80808026;
+                            z-index: 100;
+                            display: none;
+                            li {
+                                padding: 5px 12px;
+                                &:hover {
+                                    background-color: #80808026;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+           .search {
+               position: relative;
+               display: inline-block;
+               input {
+                   padding: 5px 38px 5px 5px;
+               }
+               .search-icon {
+                position:absolute;  
+                top: 0; 
+                right: 0;
+                padding: 5px 12px;
+               }
+           }
+        }
+
+    
+    }
+
+    .slider {
+        padding-bottom: 25px;
+    }
+    .jumbotron {
+        padding: 25px 0;
+        img {
+            height:150px;
+            width:auto;
+        }
+        h1 {
+            color: #21252961;
+        }
+    }
+    
+    .products, 
+    .products-overrate {
+        padding: 25px 0;
+        h2 {
+            padding: 25px 0;
+            color: #2125299c;
+        }
+    }
+    
+    .our-members {
+        padding: 25px 0;
+        h2 {
+            padding: 25px 0;
+            color: orange;
+        }
+        .item {
+            padding: 20px;
+            .avatar {
+                border-radius: 50%;
+                overflow: hidden;
+                margin-bottom: 20px;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            h4 {
+                text-align: center;
+                margin: 10px 0;
+            }
+            p {
+                margin: 0;
+                span {
+                    float: right;
+                }
+                &:last-child {
+                    margin-top: 20px;
+                    color: yellow;
+                    text-align: center;
+                }
+            }
+        }
+      
+    }
+
+   .footer {
+    .about-us {
+        text-align: center;
+        background-color: #e9ecef3d;
+        padding-top: 25px;
+        h2 {
+            margin: 15px 0;
+        }
+    }
+    .payment {
+        padding: 20px 0;
+        ul {
+            text-align: center;
+            li {
+                display: inline-block;
+                padding: 10px 20px;
+                img {
+                    width: 100%;
+                    height: 40px;
+                }
+            }
+        }
+    }
+   }
